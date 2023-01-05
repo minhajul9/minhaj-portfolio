@@ -1,30 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minhaj Portfolio</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <nav>
             <h2 class="nav-title">Minh<span>a</span>j</h2>
             <ul>
                 <li>Portfolio</li>
                 <li>Blog</li>
-                <li><button>Hire</button></li>
+                <li><button class="btn-hire">Hire me</button></li>
             </ul>
         </nav>
+
+        <!-- banner of the website -->
+        <div class="banner">
+            <div class="banner-half">
+                <h3 class="banner-sub-title">Hi, I am</h3>
+                <h1 class="banner-title">Minhaj Ul Islam <br> Chowdhury</h1>
+                <p class="about-me">
+                    Web Developer. Curious about new technologies.                    
+                </p>
+                <button class="btn-hire">Download CV</button>
+                <button class="btn-contact">Contact</button>
+            </div>
+            <div>
+                <img src="images/minhaj.png" alt="" id="minhaj" >
+            </div>
+        </div>
+        
     </header>
     <main>
+        <section class="about">
+            <h3 class="section-title">About Me</h3>
+            <p class="about-description">I am a recently passed out CSE graduate. I bring a strong foundation in  computer science and a
+                passion for building and maintaining websites. With my skills in languages like HTML, CSS, and
+                JavaScript, as well as frameworks like React and programming languages like python, c, c++. I am a quick learner and eager
+                to continue learning and staying up-to-date on the latest industry trends.</p>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td>Email:</td>
+                    <td>Date of Birth:</td>
+                    <td>From:</td>
+                </tr>
+                <tr class="info">
+                    <td>Minhaj Ul Islam Chowdhury</td>
+                    <td>mulislamchowdhury@gmail.com</td>
+                    <td>13 August, 1997</td>
+                    <td>Bangladesh</td>
+                </tr>
+            </table>
+        </section>
 
     </main>
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>

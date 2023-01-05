@@ -1,23 +1,111 @@
-*{
+body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
 }
-nav{
+
+.header {
+    margin-top: 0;
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 220px;
+    margin: 0px 220px;
+    font-weight: 400;
+    font-size: 20px;
 }
-.nav-title{
+
+.nav-title {
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 51px;
 }
-.nav-title span{
+
+.nav-title span {
     color: #FD6E0A;
+}
+
+.btn-hire {
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+}
+
+.about-me {
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* banner styles */
+.banner {
+    margin: 0 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-title {
+    font-weight: 800;
+    font-size: 75px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+
+#minhaj {
+    min-width: 120%;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+section td{
+    padding: 10px;
+}
+
+.about-description {
+    color: #757575;
+    font-size: 18px;
+}
+.info{
+    font-weight: 800;
+    font-size: 18px;
 }
