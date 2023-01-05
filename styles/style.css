@@ -165,6 +165,39 @@ color: #474747;
 }
 
 .resume-part-rows{
-    border-bottom: 2px solid darkgray;
     width: 500px;
+}
+
+.resume-btn{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+/* Main section ended here */
+
+
+/* footer section starts here  */
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.form input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact-description{
+    width: 500px;
+}
+
+footer a{
+    text-decoration: none;
 }
