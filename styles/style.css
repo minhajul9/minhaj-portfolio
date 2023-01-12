@@ -5,11 +5,10 @@ body {
 }
 
 .header {
+    width: 100%;
     margin-top: 0;
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url(../images/developer.png);
-    background-repeat: no-repeat;
-    background-position: bottom right, left;
+    
 }
 
 nav {
@@ -50,6 +49,15 @@ nav li {
     border: none;
 }
 
+.btn-contact{
+    background-color: antiquewhite;
+    border: 2px solid #FD6E0A;
+    color: #474747;
+    padding: calc(18px - 2px/2) 32px;
+    margin: 10px 0;
+
+}
+
 .about-me {
     color: #757575;
     margin-bottom: 30px;
@@ -60,7 +68,8 @@ nav li {
     margin: 0 210px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    overflow: hidden;
 }
 
 .banner-title {
@@ -77,7 +86,7 @@ nav li {
 
 
 #minhaj {
-    min-width: 120%;
+    scale: 1.5;
 }
 
 main {
@@ -112,6 +121,12 @@ section td {
     font-size: 18px;
 }
 
+.about-bottom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .skill-container {
     display: flex;
 }
@@ -139,12 +154,14 @@ section {
     margin-top: 130px;
 }
 
+
+
 /* resume part style */
 
 .resume-row-title{
     font-weight: 700;
-font-size: 30px;
-color: #474747;
+    font-size: 30px;
+    color: #474747;
 }
 
 .degree {
@@ -162,11 +179,12 @@ color: #474747;
 .resume-part{
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
-.resume-part-rows{
+/* .resume-part-rows{
     width: 500px;
-}
+} */
 
 .resume-btn{
     margin-top: 20px;
@@ -200,4 +218,103 @@ footer{
 
 footer a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+    .banner {
+        margin: 0 20px;
+        flex-direction: column-reverse;
+        background-image: hide;
+    }
+    #minhaj{
+        width: 80%;
+        margin-left: 30px;
+    }
+    .banner-half{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    nav{
+        width: 90%;
+        margin: 10px;
+        justify-content: space-evenly;
+    }
+    .hide{
+        display: none;
+    }
+    .banner-title {
+        font-size: 65px;
+        
+    }
+
+    main{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .about {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .about-bottom{
+        flex-direction: column;
+    }
+    section {
+        margin-top: 25px;
+    }
+
+    .what-i-do-section{
+        width: 100%;
+    }
+    .skill-container{
+        flex-direction: column;
+    }
+    .what-i-do-description{ 
+        text-align: center;
+        margin: 10px;
+    }
+    .skill{
+        margin: 10px;
+    }
+
+    .resume-part{
+        flex-direction: column;
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .contact-description{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+}
+
+@media screen and (min-width: 993px) {
+    .header{
+        background-image: url('../images/header_bg.png'), url(../images/developer.png);
+        background-repeat: no-repeat;
+        background-position: bottom right, left;
+    }
+    .what-i-do-description{ 
+        width: 920px;
+        margin-left: 70px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .resume-part{
+        gap: 80px;
+    }
+    
 }

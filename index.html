@@ -20,8 +20,8 @@
         <nav>
             <h2 class="nav-title">Minh<span>a</span>j</h2>
             <ul>
-                <li>Portfolio</li>
-                <li>Blog</li>
+                <li class="hide">Portfolio</li>
+                <li class="hide">Blog</li>
                 <li><button class="btn-hire">Hire me</button></li>
             </ul>
         </nav>
@@ -35,9 +35,9 @@
                     Web Developer. Curious about new technologies.
                 </p>
                 <button class="btn-hire">Download CV</button>
-                <button class="btn-contact">Contact</button>
+                <button class="btn-hire btn-contact">Contact</button>
             </div>
-            <div>
+            <div class="banner-half">
                 <img src="images/minhaj.png" alt="" id="minhaj">
             </div>
         </div>
@@ -45,32 +45,40 @@
     </header>
     <main>
         <section class="about">
-            <h3 class="section-title">About Me</h3>
-            <p class="about-description">I am a recently passed out CSE graduate. I bring a strong foundation in
+            <div class="about-header">
+                <h3 class="section-title">About Me</h3>
+                <p class="about-description">I am a recently passed out CSE graduate. I bring a strong foundation in
                 computer science and a
                 passion for building and maintaining websites. With my skills in languages like HTML, CSS, and
                 JavaScript, as well as frameworks like React and programming languages like python, c, c++. I am a quick
                 learner and eager
                 to continue learning and staying up-to-date on the latest industry trends.</p>
-            <table>
-                <tr>
-                    <td>Name:</td>
-                    <td>Email:</td>
-                    <td>Date of Birth:</td>
-                    <td>From:</td>
-                </tr>
-                <tr class="info">
-                    <td>Minhaj Ul Islam Chowdhury</td>
-                    <td>mulislamchowdhury@gmail.com</td>
-                    <td>13 August, 1997</td>
-                    <td>Bangladesh</td>
-                </tr>
-            </table>
+            </div>
+
+            <div class="about-bottom">
+                <div class="about-blocks">
+                    <p>Name</p>
+                    <p class="info">Minhaj Ul Islam Chowdhury</p>
+                </div>
+                <div class="about-blocks">
+                    <p>Email</p>
+                    <p class="info">mulislamchowdhury@gmail.com</p>
+                </div>
+                <div class="about-blocks">
+                    <p>Date of Birth</p>
+                    <p class="info">13 August, 1997</p>
+                </div>
+                <div class="about-blocks">
+                    <p>From</p>
+                    <p class="info">Bangladesh</p>
+                </div>
+            </div>
+            
         </section>
 
         <section class="what-i-do-section">
             <h3 class="section-title">Skills</h3>
-            <p style="text-align: center; color: #757575; margin:auto;  margin-bottom: 50px; width: 920px; ">Lorem,
+            <p class="what-i-do-description">Lorem,
                 ipsum dolor sit amet consectetur adipisicing elit. Voluptates pariatur tempore consequatur labore, minus
                 cumque nostrum minima reiciendis sint eum molestias est! Impedit, officiis dolores. Repellat explicabo
                 dolore tempore labore!</p>
