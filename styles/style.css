@@ -65,7 +65,7 @@ nav li {
 
 /* banner styles */
 .banner {
-    margin: 0 210px;
+    margin: 0 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -298,6 +298,12 @@ footer a{
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner {
+        margin: 0 20px;
+        flex-direction: column-reverse;
+        background-image: hide;
+        gap: 20px;
+    }
     
 }
 
@@ -315,6 +321,9 @@ footer a{
     }
     .resume-part{
         gap: 80px;
+    }
+    .banner {
+        margin: 0 210px;
     }
     
 }
