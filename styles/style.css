@@ -137,6 +137,8 @@ section td {
     border-radius: 5px;
     padding: 30px;
     margin-right: 15px;
+    width: 100%;
+    text-align: justify;
 }
 
 .skill-title {
@@ -204,6 +206,11 @@ footer{
     background-color: #FFF8F3;
     padding: 130px 230px;
 }
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 
 .form input, textarea{
     margin-bottom: 24px;
@@ -222,9 +229,10 @@ footer a{
 
 @media screen and (max-width: 576px) {
     .banner {
-        margin: 0 20px;
+        /* margin: 0 10px; */
         flex-direction: column-reverse;
         background-image: hide;
+        width: 100%;
     }
     #minhaj{
         width: 80%;
@@ -235,6 +243,7 @@ footer a{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        width: 100%;
     }
     nav{
         width: 90%;
